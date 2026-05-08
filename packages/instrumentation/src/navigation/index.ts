@@ -8,4 +8,4 @@ export type {
   NavigationInstrumentationConfig,
   NavigationType,
 } from './types.ts';
-export { defaultSanitizeUrl } from './utils.ts';
+export { defaultSanitizeUrl } from '../utils/index.ts';

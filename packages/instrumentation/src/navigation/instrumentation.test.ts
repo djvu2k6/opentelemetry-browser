@@ -13,8 +13,9 @@ import {
   it,
   vi,
 } from 'vitest';
-import { defaultSanitizeUrl } from '../utils/index.ts';
 import { setupTestLogExporter } from '#utils/test';
+import { defaultSanitizeUrl } from '../utils/index.ts';
+
 import { NavigationInstrumentation } from './instrumentation.ts';
 import {
   ATTR_BROWSER_NAVIGATION_HASH_CHANGE,

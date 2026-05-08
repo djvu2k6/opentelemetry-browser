@@ -4,8 +4,8 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { isHashChange } from './utils.ts';
 import { defaultSanitizeUrl } from '../utils/index.ts';
+import { isHashChange } from './utils.ts';
 
 describe('isHashChange', () => {
   it('should return true when adding a hash to the same URL', () => {

@@ -2,7 +2,7 @@
  * Copyright The OpenTelemetry Authors
  * SPDX-License-Identifier: Apache-2.0
  */
-export { defaultSanitizeUrl } from '../utils';
+export { defaultSanitizeUrl } from '../utils/index.ts';
 /**
  * Determines if navigation between two URLs represents a hash change.
  * A hash change is true if the URLs are the same except for the hash part,

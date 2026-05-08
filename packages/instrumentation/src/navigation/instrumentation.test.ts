@@ -22,7 +22,7 @@ import {
   ATTR_URL_FULL,
   BROWSER_NAVIGATION_EVENT_NAME,
 } from './semconv.ts';
-import { defaultSanitizeUrl } from './utils.ts';
+import { defaultSanitizeUrl } from '../utils/index.ts';
 
 describe('NavigationInstrumentation', () => {
   let inMemoryExporter: InMemoryLogRecordExporter;

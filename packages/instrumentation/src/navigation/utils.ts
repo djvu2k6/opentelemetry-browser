@@ -4,13 +4,6 @@
  */
 export { defaultSanitizeUrl } from '../utils';
 /**
- * Default URL sanitization function that redacts credentials and sensitive query parameters.
- * This is the default implementation used when no custom sanitizeUrl callback is provided.
- *
- * @param url - The URL to sanitize
- * @returns The sanitized URL with credentials and sensitive parameters redacted
- */
-/**
  * Determines if navigation between two URLs represents a hash change.
  * A hash change is true if the URLs are the same except for the hash part,
  * AND the hash is being added or changed (not removed).

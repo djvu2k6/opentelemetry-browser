@@ -4,7 +4,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { defaultSanitizeUrl } from '../utils/index.ts';
+import { defaultSanitizeUrl } from '#utils';
 import { isHashChange } from './utils.ts';
 
 describe('isHashChange', () => {

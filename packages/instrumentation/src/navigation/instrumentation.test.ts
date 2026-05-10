@@ -14,7 +14,7 @@ import {
   vi,
 } from 'vitest';
 import { setupTestLogExporter } from '#utils/test';
-import { defaultSanitizeUrl } from '../utils/index.ts';
+import { defaultSanitizeUrl } from '#utils';
 
 import { NavigationInstrumentation } from './instrumentation.ts';
 import {

@@ -13,8 +13,8 @@ import {
   it,
   vi,
 } from 'vitest';
-import { setupTestLogExporter } from '#utils/test';
 import { defaultSanitizeUrl } from '#utils';
+import { setupTestLogExporter } from '#utils/test';
 
 import { NavigationInstrumentation } from './instrumentation.ts';
 import {
